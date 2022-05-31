@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>currency converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c5f906c3e6.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text"><span>XE</span>
+        Currency converter</h1>
+      <div class="box">
+        <p class="amount">Enter Amount:</p>
+        <input type="text" value="0" />
+      </div>
+      <div class="mean">
+        <div class="from">
+          <p>From</p>
+          <div class="country">
+            <div class="img">
+              <img
+                src="https://flagicons.lipis.dev/flags/4x3/pt.svg"
+                alt="flag"
+              />
+            </div>
+            <select id="first_select" class='sl'>
+               
+              </select>
+          </div>
+        </div>
+
+        <div class="font-exchange">
+          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+        </div>
+
+        <div class="to">
+          <p>To</p>
+          <div class="country">
+            <div class="img">
+              <img
+                src="https://flagicons.lipis.dev/flags/4x3/in.svg"
+                alt="flag"
+                />
+            </div>
+              <select id="second_select"class='sl'>
+               
+              </select>
+          </div>
+        </div>
+
+      </div>
+      <div class="exchange">
+        <p class="fir">1 USD</p> = <p class="sec">100 INR</p>
+      </div>
+      <button class="btn">
+        GET EXCHANGE RATE
+      </button>
+    </div>
+
+    <!-- <div class="img">
+            <img src="https://flagicons.lipis.dev/flags/4x3/ch.svg" alt="flag">
+        </div> -->
+    <script src="js/countries.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
